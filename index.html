@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briand Fabrication Tools</title>
+<meta name="description" content="Browser-based design tools that turn text, symbols and photos into cut-ready files for laser cutters, CNC routers and 3D printers.">
+<style>
+  :root{--bg:#faf8f5;--fg:#1d1b18;--mut:#6b655c;--card:#fff;--line:#e6e1d8;--acc:#c2410c}
+  @media (prefers-color-scheme:dark){:root{--bg:#161412;--fg:#eee9e2;--mut:#a59e93;--card:#201d1a;--line:#34302b;--acc:#fb923c}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  .wrap{max-width:920px;margin:0 auto;padding:0 16px}
+  header{padding:48px 0 32px}
+  h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:0 0 12px}
+  h2{font-size:24px;margin:48px 0 16px}
+  p.lead{font-size:18px;color:var(--mut);max-width:640px;margin:0}
+  .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+  .card h3{margin:0 0 6px;font-size:18px}
+  .card p{margin:0;color:var(--mut)}
+  .price{font-size:30px;font-weight:700;margin:8px 0}
+  .price small{font-size:14px;font-weight:400;color:var(--mut)}
+  ul{padding-left:20px;margin:12px 0 0}
+  .soon{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--mut)}
+  footer{border-top:1px solid var(--line);margin-top:56px;padding:24px 0 40px;color:var(--mut);font-size:14px}
+  footer a{color:var(--mut);margin-right:16px}
+  a{color:var(--acc)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Design once. Cut on the laser, router or 3D printer.</h1>
+    <p class="lead">Browser-based generators that turn text, symbols and photos into cut-ready files. Stencils with automatic bridges, full-size pavement markings split into field panels, and photo reliefs for CNC.</p>
+  </header>
+
+  <h2>What the tools do</h2>
+  <div class="grid">
+    <div class="card"><h3>Cut</h3><p>Mandalas, signs and spray stencils with automatic bridges and island checks. Exports SVG for lasers and DXF for routers and plasma tables.</p></div>
+    <div class="card"><h3>Relief</h3><p>Photo to 3D relief with face detection and tool-radius compensation. Exports GRBL G-code for ball-nose carving.</p></div>
+    <div class="card"><h3>Print</h3><p>Turns signs and stencil designs into 3D-printable models.</p></div>
+    <div class="card"><h3>Pavement</h3><p>Lane arrows, bike symbols and parking-lot lettering at full size, split into overlapping panels with registration holes.</p></div>
+  </div>
+
+  <h2>Pricing</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Free</h3>
+      <div class="price">$0</div>
+      <p>Every tool, with draft-quality exports.</p>
+    </div>
+    <div class="card">
+      <h3>Pro licence</h3>
+      <div class="price">$39 <small>USD, one-time</small></div>
+      <p>Full-precision exports in every mode.</p>
+      <ul><li>No subscription</li><li>Commercial use of what you make</li><li>Updates to the current version</li></ul>
+    </div>
+    <div class="card">
+      <h3>API access <span class="soon">Coming soon</span></h3>
+      <div class="price">Usage-based</div>
+      <p>Generate stencils and cut files from your own software.</p>
+    </div>
+  </div>
+
+  <h2>Questions</h2>
+  <p>Email <a href="mailto:chuckb80+shop@gmail.com">chuckb80+shop@gmail.com</a>. Replies within two business days.</p>
+
+  <footer>
+    <a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="refund.html">Refund policy</a>
+    <p>© 2026 Charles Briand, Nova Scotia, Canada. Orders are processed by Lemon Squeezy, our reseller and merchant of record.</p>
+  </footer>
+</div>
+</body>
+</html>
